@@ -11,11 +11,31 @@
     
 	<?php 
         //========== Variabelen
+		// var naam = "Milan";
+		$naam = 'mrmr';
+		echo $naam;
 
 
+		//========== Datatypes
+		$string = 'Milan';
+		$indexedArray = ['naam','leeftijd','lengte'];
+		$keyedArray = [ // Assosiative array
+			'kleur' => 'geel',
+			'aantal' => 5,
+		]; 
+		$boolean = true; // or false
+		$number = 9.02; // decimalen komen na de punt
+		$int = 9;
 
         //========== Array uitlezen
 
+		echo $indexedArray[1];
+		echo $keyedArray['aantal'];
+
+		echo "<pre>"; // proper maken
+		print_r($keyedArray); //print de hele keyedarray
+		var_dump($keyedArray); //print de hele array, met datatypes erbij
+		echo "</pre>";
 
 
 

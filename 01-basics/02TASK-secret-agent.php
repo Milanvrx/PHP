@@ -16,6 +16,19 @@
         // Spare time? Style it with CSS!
 	    // ===========================================================
         
+		$secretAgent = [
+			'code name' => ' Secret Boss ',
+			'age' =>  9 ,
+			'favoriteGadget' => ' Plasmapistol ',
+			'missionStatus' =>  true ,
+		];
+
+		
+		echo $secretAgent['code name'];
+		echo $secretAgent['age'];
+		echo $secretAgent['favoriteGadget'];
+		echo $secretAgent['missionStatus'];
+
 
 
 		// Time: 3-10 minutes

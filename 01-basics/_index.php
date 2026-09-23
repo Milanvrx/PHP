@@ -14,7 +14,10 @@
     <!-- 4. [] Intro about PHP -->
 
     <!--   Talking to the world -->
-    
+	
+    <?php
+	echo "Hello world";
+	?>
     
 
 
