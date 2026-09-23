@@ -17,17 +17,18 @@
 	    // ===========================================================
         
 		$secretAgent = [
-			'code name' => ' Secret Boss ',
+			'codeName' => ' Secret Boss ',
 			'age' =>  9 ,
 			'favoriteGadget' => ' Plasmapistol ',
 			'missionStatus' =>  true ,
 		];
 
 		
-		echo $secretAgent['code name'];
+		echo "<h1>" . $secretAgent['codeName'] . "</h1>";
 		echo $secretAgent['age'];
 		echo $secretAgent['favoriteGadget'];
 		echo $secretAgent['missionStatus'];
+
 
 
 
