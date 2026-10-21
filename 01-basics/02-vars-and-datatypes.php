@@ -11,31 +11,31 @@
     
 	<?php 
         //========== Variabelen
-		// var naam = "Milan";
-		$naam = 'mrmr';
-		echo $naam;
-
+		// var naamVariable = 'word';
+		$naamVariable = "word"; // " of ' kan.
+		$naamVariable = "nieuweWord";
+		
 
 		//========== Datatypes
-		$string = 'Milan';
-		$indexedArray = ['naam','leeftijd','lengte'];
-		$keyedArray = [ // Assosiative array
-			'kleur' => 'geel',
-			'aantal' => 5,
-		]; 
-		$boolean = true; // or false
-		$number = 9.02; // decimalen komen na de punt
-		$int = 9;
+		$string = 'tekst';
+		$int = 42;
+		$float = 123.4234234;
+		$boolean = false; // or true
+		$indexArray = ['een', 'twee','drie'];
 
         //========== Array uitlezen
+		echo $indexArray[2];
 
-		echo $indexedArray[1];
-		echo $keyedArray['aantal'];
+		// echo $indexArray; // werkt niet
+		echo '<pre>'; //maakt de array mooi
+		print_r($indexArray); // toont data uit array
+		var_dump($indexArray); // toont data uit array met meer info
 
-		echo "<pre>"; // proper maken
-		print_r($keyedArray); //print de hele keyedarray
-		var_dump($keyedArray); //print de hele array, met datatypes erbij
-		echo "</pre>";
+		// wanneer je overtypt, doe dit zo bewust mogelijk. Eerst snappen
+		// CTRL + / om te commenten
+		// commentes gebruiken zodat je het zelf snapt, extra info voor jezelf waar nodig zodat je je eigen helpt
+
+		
 
 
 

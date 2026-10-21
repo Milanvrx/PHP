@@ -16,19 +16,18 @@
         // Spare time? Style it with CSS!
 	    // ===========================================================
         
-		$secretAgent = [
-			'codeName' => ' Secret Boss ',
-			'age' =>  9 ,
-			'favoriteGadget' => ' Plasmapistol ',
-			'missionStatus' =>  true ,
-		];
+		echo "<h1>Secret Agent Profile</h1>";
 
-		
-		echo "<h1>" . $secretAgent['codeName'] . "</h1>";
-		echo $secretAgent['age'];
-		echo $secretAgent['favoriteGadget'];
-		echo $secretAgent['missionStatus'];
+		$indexArray = ['Milanos','89','Boomerang','true'];
 
+		echo '<pre>';
+		print_r($indexArray);
+
+
+		//$codeName = "Milanos";
+		//$age = 89;
+		//$favoriteGadget = "Boomerang";
+		//$missionStatus = true;
 
 
 
