@@ -29,6 +29,8 @@
 		//$favoriteGadget = "Boomerang";
 		//$missionStatus = true;
 
+		echo "<p>Codename: " . $codeName . "</p>";
+
 
 
 		// Time: 3-10 minutes
