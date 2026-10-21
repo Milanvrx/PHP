@@ -16,7 +16,17 @@
 	// 3. Echo out the results in a user-friendly way.
 	// ===========================================================
 
+	$pizzaPrice = 12;
+	$toppingPrice = 5;
+	$deliveryFee = 2;
+	$pizzasOrdered = 10;
+	$toppingsPizza = 6;
+	$peopleAtTable = 4;
 
+
+
+	$totalPrice = $pizzaPrice . $toppingPrice . $deliveryFee . $toppingsPizza
+	$totalPrice .= 10;
 	
 	// Time: ?
 	// Record: 6:59 Falco (2025)
